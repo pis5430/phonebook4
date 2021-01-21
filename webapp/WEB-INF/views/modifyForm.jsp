@@ -16,7 +16,7 @@
 		아래항목을 수정하고 "수정"버튼을 클릭하세요
 	</p>
 	
-	<form action="/phonebook3/phone/modify" method="get">
+	<form action="${pageContext.request.contextPath}/phone/modify" method="get">
 		이름(name) : <input type="text" name="name" value="${oneVo.name}"> <br>
 		핸드폰(hp) : <input type="text" name="hp" value="${oneVo.hp}"> <br>
 		회사(company) : <input type="text" name="company" value="${oneVo.company}"> <br>
@@ -28,7 +28,7 @@
 	</form>
 	
 	<br>
-	<a href="http://localhost:8088/phonebook3/phone/list">리스트 바로가기</a>
+	<a href="http://localhost:8088/${pageContext.request.contextPath}/phone/list">리스트 바로가기</a>
 
 </body>
 </html>
