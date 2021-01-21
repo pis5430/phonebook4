@@ -29,7 +29,7 @@
 	
 	<br>
 	
-	<a href="/${pageContext.request.contextPath}/pbc">리스트 바로가기</a>
+	<a href="http://localhost:8088/${pageContext.request.contextPath}/phone/list">리스트 바로가기</a>
 
 
 
